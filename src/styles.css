@@ -1,0 +1,124 @@
+/* header */
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    margin: 0;
+}
+
+
+.header{
+
+display: flex;
+justify-content: space-between;
+}
+
+
+ul{
+    display: flex;
+    list-style: none ;
+  margin: 30px 0;
+}
+li{
+padding: 10px;
+text-decoration: none;
+}
+
+/* body */
+
+.content {
+ 
+ padding: 20px;
+}
+ 
+h2{
+
+  text-align: center;
+  font-size: 35px ;
+
+}
+h3{
+  text-align: center;
+  font-size: 25px;
+
+}
+ h4 {
+  text-align: center;
+  font-size: 20px ;
+  margin-bottom: 0;
+ }
+ p{
+  font-size: 25px;
+ }
+
+
+.just-p{
+
+  text-align: center;
+}
+
+.link-cover{
+
+text-align: center;
+
+}
+.links{
+
+border: 1px solid rgb(39, 39, 39)  ;
+background: transparent;
+color:rgb(39, 34, 34);
+padding: 15px;
+border-radius: 6px;
+margin: 10px;
+font-size: 16px;
+cursor: pointer;
+
+}
+.links:hover{
+
+  border: 2px solid black ;
+padding: 19px;
+
+}
+
+.links>a{
+  text-decoration: none ;
+  color: black;
+
+}
+.launch{
+
+  display: block;
+  margin: 20px;
+padding: 20px;
+font-size: 16px;
+background: transparent;
+  border-radius: 6px;
+}
+
+
+.launch:hover{
+
+  color: rgb(16, 15, 15);
+  cursor: pointer;
+  background: rgb(203, 203, 203);
+}
+.cover{
+  display: grid;
+  grid-template-columns: 5fr 5fr ;
+  padding: 10px;
+}
+.paragraph{
+
+  font-size: 25px;
+  padding: 10px;
+  
+}
+hr{
+
+  border: 1.5px solid black;
+
+}
