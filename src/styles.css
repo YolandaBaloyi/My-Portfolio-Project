@@ -110,6 +110,7 @@ background: transparent;
   display: grid;
   grid-template-columns: 5fr 5fr ;
   padding: 10px;
+margin: 20px;
 }
 .paragraph{
 
@@ -122,3 +123,60 @@ hr{
   border: 1.5px solid black;
 
 }
+
+footer{
+text-align: center;
+font: 20px;
+padding: 8px;
+background: black;
+color: white;
+}
+
+/* Mobile view  */
+
+@media (max-width:570px) {
+
+
+  body{
+
+    width: 200vw;
+    height: 200vh;
+    margin: 10px;
+  }
+.header{
+  width: 840px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.socials{
+
+  display: none;
+}
+
+
+.photo{
+  display: none ;
+}
+
+.cover{
+  display: grid;
+  grid-template-columns: 6fr;
+  width: 640px;
+margin: auto;
+ 
+}
+.launch{
+  margin: auto;
+  margin-top: 30px;
+}
+
+.paragraph{
+  padding: 20px;
+
+
+  
+}
+ }
+
+ 
