@@ -150,17 +150,17 @@ color: white;
 
 /* Mobile view  */
 
-@media (max-width:570px) {
+@media (max-width:500px) {
 
 
   body{
 
-    width: 200vw;
+    width: 400px;
     height: 200vh;
     margin: 10px;
   }
 .header{
-  width: 840px;
+  width: 400px;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
@@ -169,8 +169,17 @@ color: white;
 
   display: none;
 }
+.content{
+  width: 400px;
+}
+.just-p {
+  font-size: 20px;
+}
 
+hr{
 
+  width:400px
+}
 .photo{
   display: none ;
 }
@@ -178,8 +187,9 @@ color: white;
 .cover{
   display: grid;
   grid-template-columns: 6fr;
-  width: 640px;
+ 
 margin: auto;
+width: 400px;
  
 }
 .launch{
@@ -187,12 +197,10 @@ margin: auto;
   margin-top: 30px;
 }
 
-.paragraph{
-  padding: 20px;
+footer{
 
-
-  
+  width: 400px;
 }
  }
 
- .
+ 
