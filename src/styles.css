@@ -201,7 +201,10 @@ width: 380px;
   margin: auto;
   margin-top: 30px;
 }
+.paragraph{
 
+  font-size: 18px;
+}
 footer{
 
   width: 380px;
