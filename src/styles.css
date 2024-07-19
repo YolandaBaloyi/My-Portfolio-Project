@@ -35,6 +35,7 @@ li >a{
   text-decoration: none;
   color: black;
 margin: 10px;
+font-size: 18px;
 }
 
 li > a:hover{
@@ -139,7 +140,7 @@ margin: 20px;
 }
 .paragraph{
 
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px;
   
 }
@@ -149,13 +150,32 @@ hr{
 
 }
 
-footer{
+footer > p{
 text-align: center;
 font: 20px;
 padding: 8px;
 background: black;
 color: white;
 }
+.footer-content{
+  border: 3px solid black;
+  border-radius: 4px;
+  margin: 10px;
+}
+.footer-content>h4{
+font-size: 30px;
+
+}
+.footer-content>p{
+text-align: center;
+font-size: 18px;
+}
+.icon{
+ text-align: center;
+ padding: 10px;
+ 
+}
+
 
 
 /* about page  */
@@ -232,7 +252,12 @@ font-size: 20px;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
-
+footer{
+  width: 380px;
+}
+h1{
+  display: none;
+}
 .socials{
 
   display: none;
