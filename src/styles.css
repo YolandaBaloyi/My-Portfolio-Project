@@ -1,4 +1,7 @@
 /* header */
+body{
+  margin: 20px;
+}
 
 h1{
     font-family: "Dancing Script", cursive;
@@ -202,6 +205,14 @@ font-size: 18px;
 
   margin: auto;
   
+}
+.contact{
+
+  margin:75px;
+}
+.contact h2>  p> a{
+  color: black ;
+font-size: 20px;
 }
 
 
