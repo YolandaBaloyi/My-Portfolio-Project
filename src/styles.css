@@ -176,6 +176,10 @@ font-size: 18px;
  
 }
 
+button >a {
+text-decoration: none ;
+color: black;
+}
 
 
 /* about page  */
